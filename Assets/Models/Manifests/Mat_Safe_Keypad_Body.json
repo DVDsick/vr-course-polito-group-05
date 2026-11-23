@@ -1,0 +1,58 @@
+{
+  "material_name": "Mat_Safe_Keypad_Body",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.0425,
+      0.046,
+      0.0535,
+      1.0
+    ],
+    "_Color": [
+      0.0425,
+      0.046,
+      0.0535,
+      1.0
+    ],
+    "_ColorHex": "#0B0C0E",
+    "_Metallic": 0.15,
+    "_Smoothness": 0.6,
+    "_Glossiness": 0.6,
+    "_Roughness": 0.4,
+    "_BumpScale": 0.02,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Safe_Numpad_Panel"
+  ],
+  "conversion_notes": "Blender Noise Texture (scale 20.0) feeding Color Ramp ([0.035, 0.038, 0.045] to [0.05, 0.054, 0.062]) converted to matte black keypad casing #0B0C0E. Metallic 0.15. Roughness ramp avg 0.40 converted to Smoothness 0.60."
+}

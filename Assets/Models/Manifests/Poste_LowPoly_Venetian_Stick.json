@@ -1,0 +1,61 @@
+{
+  "material_name": "Poste_LowPoly_Venetian_Stick",
+  "engine": "Unity",
+  "render_type": "Transparent",
+  "render_queue": 3000,
+  "blend_mode": "Transparent",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.94,
+      0.96,
+      0.98,
+      0.72
+    ],
+    "_Color": [
+      0.94,
+      0.96,
+      0.98,
+      0.72
+    ],
+    "_ColorHex": "#F0F5FA",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.82,
+    "_Glossiness": 0.82,
+    "_Roughness": 0.18,
+    "_BumpScale": 1.0,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 1,
+    "_Blend": 0,
+    "_SrcBlend": 5,
+    "_DstBlend": 10,
+    "_ZWrite": 0
+  },
+  "shader_keywords": [
+    "_SURFACE_TYPE_TRANSPARENT"
+  ],
+  "assigned_objects": [
+    "Venetian_stick",
+    "Venetian_stick.001"
+  ],
+  "conversion_notes": "Blender BLENDED material with Alpha 0.72 converted to Unity Transparent material. Base color frosted acrylic #F0F5FA with alpha 0.72. Smoothness 0.82. RenderQueue 3000, SrcBlend 5, DstBlend 10, ZWrite 0."
+}

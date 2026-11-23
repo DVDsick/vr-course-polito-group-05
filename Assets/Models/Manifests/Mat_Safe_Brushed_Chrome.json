@@ -1,0 +1,61 @@
+{
+  "material_name": "Mat_Safe_Brushed_Chrome",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.73,
+      0.75,
+      0.78,
+      1.0
+    ],
+    "_Color": [
+      0.73,
+      0.75,
+      0.78,
+      1.0
+    ],
+    "_ColorHex": "#BABFC7",
+    "_Metallic": 0.85,
+    "_Smoothness": 0.73,
+    "_Glossiness": 0.73,
+    "_Roughness": 0.27,
+    "_BumpScale": 0.02,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Safe_Door",
+    "Safe_Numpad_Panel",
+    "Safe_Rotary_Handle",
+    "Safe_Wall_Body"
+  ],
+  "conversion_notes": "Blender Noise Texture (scale 30.0) feeding Color Ramp ([0.68, 0.7, 0.73] to [0.78, 0.8, 0.83]) converted to bright metallic chrome #BAC0C7. Metallic 0.85. Roughness ramp (0.22 to 0.32, avg 0.27) converted to Smoothness 0.73."
+}

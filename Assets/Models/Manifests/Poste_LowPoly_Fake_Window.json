@@ -1,0 +1,73 @@
+{
+  "material_name": "Poste_LowPoly_Fake_Window",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.62,
+      0.835,
+      0.97,
+      1.0
+    ],
+    "_Color": [
+      0.62,
+      0.835,
+      0.97,
+      1.0
+    ],
+    "_ColorHex": "#9ED5F7",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.85,
+    "_Glossiness": 0.85,
+    "_Roughness": 0.15,
+    "_BumpScale": 1.0,
+    "_EmissionEnabled": true,
+    "_EmissionColor": [
+      0.1375,
+      0.205,
+      0.245,
+      1.0
+    ],
+    "_EmissionStrength": 0.25,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [
+    "_EMISSION"
+  ],
+  "assigned_objects": [
+    "Window.L",
+    "Window.L.001",
+    "Window.L.002",
+    "Window.L.003",
+    "Window.L.004",
+    "Window.L.005",
+    "Window.L.006",
+    "Window.R",
+    "Window.R.001",
+    "Window.R.002",
+    "Window.R.003",
+    "Window.R.004",
+    "Window.R.005",
+    "Window.R.006"
+  ],
+  "conversion_notes": "Blender Z-gradient Color Ramp ([0.48, 0.76, 0.95] to [0.76, 0.91, 0.99]) converted to sky blue #9ED5F7. Emission color [0.55, 0.82, 0.98] at strength 0.25 converted to Unity HDR emission [0.1375, 0.205, 0.245]. Smoothness 0.85."
+}

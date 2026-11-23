@@ -1,0 +1,60 @@
+{
+  "material_name": "Mat_Safe_LCD_Emissive",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.18,
+      0.85,
+      0.52,
+      1.0
+    ],
+    "_Color": [
+      0.18,
+      0.85,
+      0.52,
+      1.0
+    ],
+    "_ColorHex": "#2ED985",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.8,
+    "_Glossiness": 0.8,
+    "_Roughness": 0.2,
+    "_BumpScale": 1.0,
+    "_EmissionEnabled": true,
+    "_EmissionColor": [
+      0.504,
+      2.38,
+      1.456,
+      1.0
+    ],
+    "_EmissionStrength": 2.8,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [
+    "_EMISSION"
+  ],
+  "assigned_objects": [
+    "Safe_Numpad_Panel"
+  ],
+  "conversion_notes": "Blender Principled BSDF emission: Color [0.18, 0.85, 0.52] with Strength 2.8 converted to Unity HDR emission color (0.18*2.8, 0.85*2.8, 0.52*2.8) = [0.504, 2.38, 1.456]. Smoothness 0.80. Shader keyword _EMISSION enabled."
+}

@@ -1,0 +1,59 @@
+{
+  "material_name": "Poste_LowPoly_Venetian_Cord",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.85,
+      0.83,
+      0.77,
+      1.0
+    ],
+    "_Color": [
+      0.85,
+      0.83,
+      0.77,
+      1.0
+    ],
+    "_ColorHex": "#D9D4C4",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.22,
+    "_Glossiness": 0.22,
+    "_Roughness": 0.78,
+    "_BumpScale": 0.08,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Venetian_updown",
+    "Venetian_updown.001"
+  ],
+  "conversion_notes": "Blender Principled BSDF color [0.85, 0.83, 0.77] converted to off-white fabric cord #D9D4C4. Roughness 0.78 converted to Smoothness 0.22 (matte fabric). Wave bump scale 0.08."
+}

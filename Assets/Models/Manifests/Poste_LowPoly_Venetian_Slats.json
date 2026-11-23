@@ -1,0 +1,59 @@
+{
+  "material_name": "Poste_LowPoly_Venetian_Slats",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.94,
+      0.9,
+      0.75,
+      1.0
+    ],
+    "_Color": [
+      0.94,
+      0.9,
+      0.75,
+      1.0
+    ],
+    "_ColorHex": "#F0E6BF",
+    "_Metallic": 0.15,
+    "_Smoothness": 0.66,
+    "_Glossiness": 0.66,
+    "_Roughness": 0.34,
+    "_BumpScale": 1.0,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Venetian_slats",
+    "Venetian_slats.001"
+  ],
+  "conversion_notes": "Blender Wave Texture feeding Color Ramp ([0.91, 0.86, 0.68] to [0.97, 0.94, 0.82]) converted to warm beige blind slats #F0E6BF. Metallic 0.15. Roughness 0.34 converted to Smoothness 0.66."
+}

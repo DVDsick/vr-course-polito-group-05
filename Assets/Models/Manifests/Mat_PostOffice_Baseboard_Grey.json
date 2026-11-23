@@ -1,0 +1,61 @@
+{
+  "material_name": "Mat_PostOffice_Baseboard_Grey",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.165,
+      0.17,
+      0.1825,
+      1.0
+    ],
+    "_Color": [
+      0.165,
+      0.17,
+      0.1825,
+      1.0
+    ],
+    "_ColorHex": "#2A2B2F",
+    "_Metallic": 0.05,
+    "_Smoothness": 0.57,
+    "_Glossiness": 0.57,
+    "_Roughness": 0.43,
+    "_BumpScale": 0.04,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.5,
+      1.5
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Baseboard",
+    "Baseboard.001",
+    "Baseboard.002",
+    "Baseboard.003"
+  ],
+  "conversion_notes": "Blender Noise Texture (scale 3.5) feeding Color Ramp ([0.14, 0.145, 0.155] to [0.19, 0.195, 0.21]) converted to representative base color #2A2B2E. Roughness ramp (0.38 to 0.48, avg 0.43) converted to Smoothness 0.57. Bump strength 0.04 preserved. Mapping scale (1.5, 1.5, 6.0) mapped to Unity UV tiling (1.5, 1.5)."
+}

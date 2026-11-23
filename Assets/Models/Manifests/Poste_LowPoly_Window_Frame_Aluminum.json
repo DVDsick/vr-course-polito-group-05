@@ -1,0 +1,81 @@
+{
+  "material_name": "Poste_LowPoly_Window_Frame_Aluminum",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.26,
+      0.28,
+      0.31,
+      1.0
+    ],
+    "_Color": [
+      0.26,
+      0.28,
+      0.31,
+      1.0
+    ],
+    "_ColorHex": "#42474F",
+    "_Metallic": 0.45,
+    "_Smoothness": 0.58,
+    "_Glossiness": 0.58,
+    "_Roughness": 0.42,
+    "_BumpScale": 1.0,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      1.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Handle_Back",
+    "Handle_Back.002",
+    "Handle_Front",
+    "Handle_Front.002",
+    "Window.L",
+    "Window.L.001",
+    "Window.L.002",
+    "Window.L.003",
+    "Window.L.004",
+    "Window.L.005",
+    "Window.L.006",
+    "Window.R.001",
+    "Window.R.002",
+    "Window.R.003",
+    "Window.R.004",
+    "Window.R.005",
+    "Window.R.006",
+    "WindowFrame",
+    "WindowFrame.001",
+    "WindowFrame.002",
+    "WindowFrame.003",
+    "WindowFrame.004",
+    "WindowFrame.005",
+    "WindowFrame.006"
+  ],
+  "conversion_notes": "Blender Noise Texture feeding Color Ramp ([0.22, 0.24, 0.27] to [0.3, 0.32, 0.35]) converted to dark anodized aluminum #42474F. Metallic 0.45. Roughness 0.42 converted to Smoothness 0.58."
+}

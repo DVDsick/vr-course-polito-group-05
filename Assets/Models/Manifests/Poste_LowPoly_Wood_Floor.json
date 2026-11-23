@@ -1,0 +1,58 @@
+{
+  "material_name": "Poste_LowPoly_Wood_Floor",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.51,
+      0.32,
+      0.16,
+      1.0
+    ],
+    "_Color": [
+      0.51,
+      0.32,
+      0.16,
+      1.0
+    ],
+    "_ColorHex": "#825229",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.52,
+    "_Glossiness": 0.52,
+    "_Roughness": 0.48,
+    "_BumpScale": 0.08,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      1.0,
+      9.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Floor"
+  ],
+  "conversion_notes": "Blender Brick Texture (Color1 [0.58, 0.38, 0.2], Color2 [0.48, 0.3, 0.15]) multiplied with Noise Texture at factor 0.18 converted to wood parquet color #825229. Roughness 0.48 converted to Smoothness 0.52. Brick bump scale 0.08. Mapping scale (1.0, 9.0, 1.0) mapped to UV tiling (1.0, 9.0)."
+}

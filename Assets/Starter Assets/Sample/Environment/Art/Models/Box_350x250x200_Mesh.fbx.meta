@@ -1,22 +1,139 @@
 fileFormatVersion: 2
 guid: c6a55ba99e9e99d41b7eef123e311a43
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196526
+  packageName: First Person + Third Person | Character Controllers
+  packageVersion: 2.0.2
+  assetPath: Assets/Starter Assets/Sample/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  uploadId: 1032646
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_PostOffice_Baseboard_Grey
+    second: {fileID: 2100000, guid: f382a75966c89f14c85782fb244ca744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_PostOffice_Ceiling_Panels
+    second: {fileID: 2100000, guid: 489770f112121354885c561d67a9273f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_Armored_Steel
+    second: {fileID: 2100000, guid: 808baa97b5fd3214797ca2f23e636ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_Brushed_Chrome
+    second: {fileID: 2100000, guid: d89dedbc8435cdc4684eed7bb8087794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_Keypad_Body
+    second: {fileID: 2100000, guid: d0efdf772bcfd2840aa21946d61e5bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_Keypad_Buttons
+    second: {fileID: 2100000, guid: 55b1f1c6200417c4db410e45938d0f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_LCD_Emissive
+    second: {fileID: 2100000, guid: 5fcab71b4772a7346b848998ad08d16c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Safe_Yellow_Accent
+    second: {fileID: 2100000, guid: 08f63a77f56bd1d4cb7805c5e5803848, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Aged_Wall
+    second: {fileID: 2100000, guid: aad3721332bddb14fa42a4d39e3a3cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Door_Brass
+    second: {fileID: 2100000, guid: f8e7bfce1cc942548a5b1b0f83f9d2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Fake_Window
+    second: {fileID: 2100000, guid: 0408a6db3b118c34f93aa865986892a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Marble_Floor
+    second: {fileID: 2100000, guid: 6a67eae0a13f1d7408393c3ccb918a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Office_Glass_Door
+    second: {fileID: 2100000, guid: 824a01db004f511429097375df4c66ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Security_Door_Steel
+    second: {fileID: 2100000, guid: 00d585fe0eaaa6d47854dab1ca212b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Sliding_Handle_Black
+    second: {fileID: 2100000, guid: 5133a591bfd75884391b0e7e9c3df6f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Venetian_Cord
+    second: {fileID: 2100000, guid: fe29de55273216649beb709e97336a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Venetian_Header
+    second: {fileID: 2100000, guid: cd86b85342f08c64c84dc10a6045d5b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Venetian_Slats
+    second: {fileID: 2100000, guid: 87f7098bf3afbe64fb670f7b784764a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Venetian_Stick
+    second: {fileID: 2100000, guid: cd65fd926c2dae54ba6360419582413a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Window_Frame_Aluminum
+    second: {fileID: 2100000, guid: 0a1fc230de96862469d052084f5465df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Wood_Door
+    second: {fileID: 2100000, guid: 50a0cfa0c0ab71a44a820b6588d0d70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poste_LowPoly_Wood_Floor
+    second: {fileID: 2100000, guid: 4d49ba7dee33f4c429278a2b6c78e52f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -39,27 +156,38 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -91,14 +219,10 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196526
-  packageName: First Person + Third Person | Character Controllers
-  packageVersion: 2.0.2
-  assetPath: Assets/Starter Assets/Sample/Environment/Art/Models/Box_350x250x200_Mesh.fbx
-  uploadId: 1032646

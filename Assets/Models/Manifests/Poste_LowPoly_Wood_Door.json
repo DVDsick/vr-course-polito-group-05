@@ -1,0 +1,61 @@
+{
+  "material_name": "Poste_LowPoly_Wood_Door",
+  "engine": "Unity",
+  "render_type": "Opaque",
+  "render_queue": 2000,
+  "blend_mode": "Opaque",
+  "cull_mode": "Back",
+  "shaders": {
+    "urp": "Universal Render Pipeline/Lit",
+    "builtin_standard": "Standard"
+  },
+  "properties": {
+    "_BaseColor": [
+      0.375,
+      0.215,
+      0.105,
+      1.0
+    ],
+    "_Color": [
+      0.375,
+      0.215,
+      0.105,
+      1.0
+    ],
+    "_ColorHex": "#60371B",
+    "_Metallic": 0.0,
+    "_Smoothness": 0.58,
+    "_Glossiness": 0.58,
+    "_Roughness": 0.42,
+    "_BumpScale": 0.04,
+    "_EmissionEnabled": false,
+    "_EmissionColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_EmissionStrength": 0.0,
+    "_Tiling": [
+      9.0,
+      9.0
+    ],
+    "_Offset": [
+      0.0,
+      0.0
+    ],
+    "_Surface": 0,
+    "_Blend": 0,
+    "_SrcBlend": 1,
+    "_DstBlend": 0,
+    "_ZWrite": 1
+  },
+  "shader_keywords": [],
+  "assigned_objects": [
+    "Door",
+    "Door.001",
+    "DoorFrame",
+    "DoorFrame.001"
+  ],
+  "conversion_notes": "Blender Noise Texture feeding Color Ramp ([0.31, 0.17, 0.08] to [0.44, 0.26, 0.13]) converted to rich warm brown wood #60371B. Roughness 0.42 converted to Smoothness 0.58. Bump scale 0.04. Mapping scale (9.0, 9.0, 0.8) mapped to UV tiling (9.0, 9.0)."
+}

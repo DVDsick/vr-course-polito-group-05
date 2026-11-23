@@ -1,0 +1,646 @@
+[
+  {
+    "material_name": "Mat_PostOffice_Baseboard_Grey",
+    "json_file": "Mat_PostOffice_Baseboard_Grey.json",
+    "unity_mat_file": "Mat_PostOffice_Baseboard_Grey.mat",
+    "urp_mat_file": "URP/Mat_PostOffice_Baseboard_Grey.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_PostOffice_Baseboard_Grey.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#2A2B2F",
+    "base_color_rgba": [
+      0.165,
+      0.17,
+      0.1825,
+      1.0
+    ],
+    "metallic": 0.05,
+    "smoothness": 0.57,
+    "roughness": 0.43,
+    "emission_enabled": false,
+    "tiling": [
+      1.5,
+      1.5
+    ],
+    "assigned_objects": [
+      "Baseboard",
+      "Baseboard.001",
+      "Baseboard.002",
+      "Baseboard.003"
+    ]
+  },
+  {
+    "material_name": "Mat_PostOffice_Ceiling_Panels",
+    "json_file": "Mat_PostOffice_Ceiling_Panels.json",
+    "unity_mat_file": "Mat_PostOffice_Ceiling_Panels.mat",
+    "urp_mat_file": "URP/Mat_PostOffice_Ceiling_Panels.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_PostOffice_Ceiling_Panels.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D4D6DB",
+    "base_color_rgba": [
+      0.83,
+      0.84,
+      0.86,
+      1.0
+    ],
+    "metallic": 0.2,
+    "smoothness": 0.485,
+    "roughness": 0.515,
+    "emission_enabled": false,
+    "tiling": [
+      1.67,
+      1.67
+    ],
+    "assigned_objects": [
+      "Ceiling_Room_Main_17x11",
+      "Ceiling_Room_TopLeft_9.5x6",
+      "Ceiling_Room_TopRight_7.5x6",
+      "Ceiling_Vestibule_BottomRight_3x2"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_Armored_Steel",
+    "json_file": "Mat_Safe_Armored_Steel.json",
+    "unity_mat_file": "Mat_Safe_Armored_Steel.mat",
+    "urp_mat_file": "URP/Mat_Safe_Armored_Steel.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_Armored_Steel.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#17161D",
+    "base_color_rgba": [
+      0.09,
+      0.086,
+      0.1125,
+      1.0
+    ],
+    "metallic": 0.35,
+    "smoothness": 0.57,
+    "roughness": 0.43,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Door",
+      "Safe_Rotary_Handle",
+      "Safe_Wall_Body"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_Brushed_Chrome",
+    "json_file": "Mat_Safe_Brushed_Chrome.json",
+    "unity_mat_file": "Mat_Safe_Brushed_Chrome.mat",
+    "urp_mat_file": "URP/Mat_Safe_Brushed_Chrome.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_Brushed_Chrome.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#BABFC7",
+    "base_color_rgba": [
+      0.73,
+      0.75,
+      0.78,
+      1.0
+    ],
+    "metallic": 0.85,
+    "smoothness": 0.73,
+    "roughness": 0.27,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Door",
+      "Safe_Numpad_Panel",
+      "Safe_Rotary_Handle",
+      "Safe_Wall_Body"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_Keypad_Body",
+    "json_file": "Mat_Safe_Keypad_Body.json",
+    "unity_mat_file": "Mat_Safe_Keypad_Body.mat",
+    "urp_mat_file": "URP/Mat_Safe_Keypad_Body.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_Keypad_Body.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#0B0C0E",
+    "base_color_rgba": [
+      0.0425,
+      0.046,
+      0.0535,
+      1.0
+    ],
+    "metallic": 0.15,
+    "smoothness": 0.6,
+    "roughness": 0.4,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Numpad_Panel"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_Keypad_Buttons",
+    "json_file": "Mat_Safe_Keypad_Buttons.json",
+    "unity_mat_file": "Mat_Safe_Keypad_Buttons.mat",
+    "urp_mat_file": "URP/Mat_Safe_Keypad_Buttons.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_Keypad_Buttons.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#959AA2",
+    "base_color_rgba": [
+      0.585,
+      0.605,
+      0.635,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.4,
+    "roughness": 0.6,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Numpad_Panel"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_LCD_Emissive",
+    "json_file": "Mat_Safe_LCD_Emissive.json",
+    "unity_mat_file": "Mat_Safe_LCD_Emissive.mat",
+    "urp_mat_file": "URP/Mat_Safe_LCD_Emissive.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_LCD_Emissive.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#2ED985",
+    "base_color_rgba": [
+      0.18,
+      0.85,
+      0.52,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.8,
+    "roughness": 0.2,
+    "emission_enabled": true,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Numpad_Panel"
+    ]
+  },
+  {
+    "material_name": "Mat_Safe_Yellow_Accent",
+    "json_file": "Mat_Safe_Yellow_Accent.json",
+    "unity_mat_file": "Mat_Safe_Yellow_Accent.mat",
+    "urp_mat_file": "URP/Mat_Safe_Yellow_Accent.mat",
+    "builtin_mat_file": "Builtin_Standard/Mat_Safe_Yellow_Accent.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#E9B108",
+    "base_color_rgba": [
+      0.915,
+      0.695,
+      0.03,
+      1.0
+    ],
+    "metallic": 0.1,
+    "smoothness": 0.64,
+    "roughness": 0.36,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Safe_Door",
+      "Safe_Wall_Body"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Aged_Wall",
+    "json_file": "Poste_LowPoly_Aged_Wall.json",
+    "unity_mat_file": "Poste_LowPoly_Aged_Wall.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Aged_Wall.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Aged_Wall.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D2D2CF",
+    "base_color_rgba": [
+      0.825,
+      0.825,
+      0.81,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.16,
+    "roughness": 0.84,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Floor",
+      "Room",
+      "Room.001",
+      "Room.002"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Door_Brass",
+    "json_file": "Poste_LowPoly_Door_Brass.json",
+    "unity_mat_file": "Poste_LowPoly_Door_Brass.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Door_Brass.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Door_Brass.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D9A62E",
+    "base_color_rgba": [
+      0.85,
+      0.65,
+      0.18,
+      1.0
+    ],
+    "metallic": 0.75,
+    "smoothness": 0.65,
+    "roughness": 0.35,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Handle_Back.001",
+      "Handle_Front.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Fake_Window",
+    "json_file": "Poste_LowPoly_Fake_Window.json",
+    "unity_mat_file": "Poste_LowPoly_Fake_Window.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Fake_Window.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Fake_Window.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#9ED5F7",
+    "base_color_rgba": [
+      0.62,
+      0.835,
+      0.97,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.85,
+    "roughness": 0.15,
+    "emission_enabled": true,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Window.L",
+      "Window.L.001",
+      "Window.L.002",
+      "Window.L.003",
+      "Window.L.004",
+      "Window.L.005",
+      "Window.L.006",
+      "Window.R",
+      "Window.R.001",
+      "Window.R.002",
+      "Window.R.003",
+      "Window.R.004",
+      "Window.R.005",
+      "Window.R.006"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Marble_Floor",
+    "json_file": "Poste_LowPoly_Marble_Floor.json",
+    "unity_mat_file": "Poste_LowPoly_Marble_Floor.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Marble_Floor.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Marble_Floor.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D9D4D4",
+    "base_color_rgba": [
+      0.85,
+      0.83,
+      0.83,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.75,
+    "roughness": 0.25,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Floor"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Office_Glass_Door",
+    "json_file": "Poste_LowPoly_Office_Glass_Door.json",
+    "unity_mat_file": "Poste_LowPoly_Office_Glass_Door.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Office_Glass_Door.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Office_Glass_Door.mat",
+    "render_type": "Transparent",
+    "base_color_hex": "#D1EDF5",
+    "base_color_rgba": [
+      0.82,
+      0.93,
+      0.96,
+      0.4
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.88,
+    "roughness": 0.12,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Door.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Security_Door_Steel",
+    "json_file": "Poste_LowPoly_Security_Door_Steel.json",
+    "unity_mat_file": "Poste_LowPoly_Security_Door_Steel.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Security_Door_Steel.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Security_Door_Steel.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#414A55",
+    "base_color_rgba": [
+      0.255,
+      0.29,
+      0.335,
+      1.0
+    ],
+    "metallic": 0.72,
+    "smoothness": 0.62,
+    "roughness": 0.38,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Door.002",
+      "DoorFrame.002",
+      "Window.R"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Sliding_Handle_Black",
+    "json_file": "Poste_LowPoly_Sliding_Handle_Black.json",
+    "unity_mat_file": "Poste_LowPoly_Sliding_Handle_Black.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Sliding_Handle_Black.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Sliding_Handle_Black.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#111114",
+    "base_color_rgba": [
+      0.065,
+      0.065,
+      0.08,
+      1.0
+    ],
+    "metallic": 0.65,
+    "smoothness": 0.64,
+    "roughness": 0.36,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Handle",
+      "Handle.001",
+      "Handle.002",
+      "Handle.003",
+      "Handle.004",
+      "Handle.005",
+      "Handle.006",
+      "Handle.007",
+      "Handle.008",
+      "Handle.009"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Venetian_Cord",
+    "json_file": "Poste_LowPoly_Venetian_Cord.json",
+    "unity_mat_file": "Poste_LowPoly_Venetian_Cord.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Venetian_Cord.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Venetian_Cord.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D9D4C4",
+    "base_color_rgba": [
+      0.85,
+      0.83,
+      0.77,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.22,
+    "roughness": 0.78,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Venetian_updown",
+      "Venetian_updown.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Venetian_Header",
+    "json_file": "Poste_LowPoly_Venetian_Header.json",
+    "unity_mat_file": "Poste_LowPoly_Venetian_Header.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Venetian_Header.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Venetian_Header.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#D1D1CC",
+    "base_color_rgba": [
+      0.82,
+      0.82,
+      0.8,
+      1.0
+    ],
+    "metallic": 0.25,
+    "smoothness": 0.62,
+    "roughness": 0.38,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "VenetianFrame",
+      "VenetianFrame.001",
+      "Venetian_base",
+      "Venetian_base.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Venetian_Slats",
+    "json_file": "Poste_LowPoly_Venetian_Slats.json",
+    "unity_mat_file": "Poste_LowPoly_Venetian_Slats.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Venetian_Slats.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Venetian_Slats.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#F0E6BF",
+    "base_color_rgba": [
+      0.94,
+      0.9,
+      0.75,
+      1.0
+    ],
+    "metallic": 0.15,
+    "smoothness": 0.66,
+    "roughness": 0.34,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Venetian_slats",
+      "Venetian_slats.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Venetian_Stick",
+    "json_file": "Poste_LowPoly_Venetian_Stick.json",
+    "unity_mat_file": "Poste_LowPoly_Venetian_Stick.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Venetian_Stick.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Venetian_Stick.mat",
+    "render_type": "Transparent",
+    "base_color_hex": "#F0F5FA",
+    "base_color_rgba": [
+      0.94,
+      0.96,
+      0.98,
+      0.72
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.82,
+    "roughness": 0.18,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Venetian_stick",
+      "Venetian_stick.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Window_Frame_Aluminum",
+    "json_file": "Poste_LowPoly_Window_Frame_Aluminum.json",
+    "unity_mat_file": "Poste_LowPoly_Window_Frame_Aluminum.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Window_Frame_Aluminum.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Window_Frame_Aluminum.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#42474F",
+    "base_color_rgba": [
+      0.26,
+      0.28,
+      0.31,
+      1.0
+    ],
+    "metallic": 0.45,
+    "smoothness": 0.58,
+    "roughness": 0.42,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      1.0
+    ],
+    "assigned_objects": [
+      "Handle_Back",
+      "Handle_Back.002",
+      "Handle_Front",
+      "Handle_Front.002",
+      "Window.L",
+      "Window.L.001",
+      "Window.L.002",
+      "Window.L.003",
+      "Window.L.004",
+      "Window.L.005",
+      "Window.L.006",
+      "Window.R.001",
+      "Window.R.002",
+      "Window.R.003",
+      "Window.R.004",
+      "Window.R.005",
+      "Window.R.006",
+      "WindowFrame",
+      "WindowFrame.001",
+      "WindowFrame.002",
+      "WindowFrame.003",
+      "WindowFrame.004",
+      "WindowFrame.005",
+      "WindowFrame.006"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Wood_Door",
+    "json_file": "Poste_LowPoly_Wood_Door.json",
+    "unity_mat_file": "Poste_LowPoly_Wood_Door.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Wood_Door.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Wood_Door.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#60371B",
+    "base_color_rgba": [
+      0.375,
+      0.215,
+      0.105,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.58,
+    "roughness": 0.42,
+    "emission_enabled": false,
+    "tiling": [
+      9.0,
+      9.0
+    ],
+    "assigned_objects": [
+      "Door",
+      "Door.001",
+      "DoorFrame",
+      "DoorFrame.001"
+    ]
+  },
+  {
+    "material_name": "Poste_LowPoly_Wood_Floor",
+    "json_file": "Poste_LowPoly_Wood_Floor.json",
+    "unity_mat_file": "Poste_LowPoly_Wood_Floor.mat",
+    "urp_mat_file": "URP/Poste_LowPoly_Wood_Floor.mat",
+    "builtin_mat_file": "Builtin_Standard/Poste_LowPoly_Wood_Floor.mat",
+    "render_type": "Opaque",
+    "base_color_hex": "#825229",
+    "base_color_rgba": [
+      0.51,
+      0.32,
+      0.16,
+      1.0
+    ],
+    "metallic": 0.0,
+    "smoothness": 0.52,
+    "roughness": 0.48,
+    "emission_enabled": false,
+    "tiling": [
+      1.0,
+      9.0
+    ],
+    "assigned_objects": [
+      "Floor"
+    ]
+  }
+]
