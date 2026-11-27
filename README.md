@@ -10,3 +10,14 @@ A low-poly cartoon post office simulation game where you single-handedly run Cou
 
 ## Documents
 - [A0 Working Document](https://docs.google.com/document/d/1J_Vj0ssz6_BSogGdFrTCUpvoGugs84Q9o7FkACSTDjw/edit?usp=sharing) <!-- Replace with your actual A0 Google Doc / PDF link -->
+
+## Generated Assets
+Some 3D models and materials were generated using scripts written with AI tools (Gemini and Claude).
+
+**Generated models:**
+- Ticket dispenser
+- Printer
+- Drawers
+- Coffee machine
+- Chairs
+- Wall texture
